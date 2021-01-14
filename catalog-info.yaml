@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-micro-service
+  description: asasd
+  annotations: 
+    github.com/project-slug: blamdemo/asdknasdlkn
+    backstage.io/github-actions-id: blamdemo/asdknasdlkn
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
